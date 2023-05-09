@@ -10,6 +10,6 @@ meme_dict = {
 word = input("Ketik kata yang ingin dicari tahu: ")
 
 if word in meme_dict.keys():
-    print (meme_dict[world])
+    print (meme_dict[word])
 else:
     print ('kata yang dicari tidak ada')
